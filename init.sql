@@ -1,3 +1,5 @@
+-- noinspection SqlNoDataSourceInspectionForFile
+
 DROP DATABASE IF EXISTS spring;
 CREATE DATABASE spring DEFAULT CHARACTER SET utf8;
 USE spring;

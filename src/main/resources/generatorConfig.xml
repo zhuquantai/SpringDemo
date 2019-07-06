@@ -15,7 +15,7 @@
 
         <!--数据库链接地址账号密码-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/spring" userId="root"
-                        password="root">
+                        password="mobile#123">
         </jdbcConnection>
         <!--不知道做什么用的。。。反正贴上来了~-->
         <javaTypeResolver>

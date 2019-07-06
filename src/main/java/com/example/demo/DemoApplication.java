@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * MapperScan注解用来生成dao的bean对象
+ * MapperScan: 属于Mybatis的注解,用来生成dao的bean对象
  */
 @MapperScan("com.example.demo.dao")
 @SpringBootApplication
