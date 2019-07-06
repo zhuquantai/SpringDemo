@@ -12,7 +12,11 @@ public interface MyUserMapper {
 
     MyUser selectByPrimaryKey(String uid);
 
+    MyUser findUser(String userName);
+
     int updateByPrimaryKeySelective(MyUser record);
 
     int updateByPrimaryKey(MyUser record);
+
+
 }
