@@ -1,8 +1,12 @@
 #  服务器配置
 server:
-  port: 8080
+  port: 8089
 
 spring:
+  thymeleaf:
+    prefix: classpath:static/
+    suffix: .html
+    mode: HTML
   datasource:
       # 项目执行的时候，会使用这里的数据库参数
       url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf-8&useSSL=false
